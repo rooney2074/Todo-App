@@ -90,7 +90,7 @@ export class DataservicesService {
       return false;
     }
   }
-  logout(user:any){
+  delete(user:any){
 
 
     this.Userdetails[user]['task'].pop({})
