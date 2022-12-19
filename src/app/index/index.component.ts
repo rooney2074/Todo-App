@@ -54,7 +54,7 @@ export class IndexComponent implements OnInit {
   delete(){
    var user = this.user
 
-const result = this.ds.logout(user);
+const result = this.ds.delete(user);
 
 if(result){
   alert('task removed successfully')
